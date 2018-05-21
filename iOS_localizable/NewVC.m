@@ -1,25 +1,26 @@
 //
-//  ViewController.m
+//  NewVC.m
 //  iOS_localizable
 //
 //  Created by ds.sunagy on 2018/5/17.
 //  Copyright © 2018年 ds.sunagy. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "NewVC.h"
-@interface ViewController ()
+
+@interface NewVC ()
 
 @end
 
-@implementation ViewController
+@implementation NewVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor=[UIColor grayColor];
     [self addview];
+    
 }
-
 -(void)addview{
     //1 ============= 本地化app 名称  InfoPlist.strings    CFBundleDisplayName
     //2 ============= 本地化字符串 名称 Localizable.strings
@@ -51,33 +52,19 @@
     
     // 6 ============= 在代码中切换语言
 }
-
-
-- (IBAction)chinaClick:(id)sender {
-    
-    NSArray *lans = @[@"zh-Hans-US"];
-    [[NSUserDefaults standardUserDefaults] setObject:lans forKey:@"AppleLanguages"];
-}
-
-- (IBAction)enlishclick:(id)sender {
-    NSArray *lans = @[@"en-US"];
-    [[NSUserDefaults standardUserDefaults] setObject:lans forKey:@"AppleLanguages"];
-    
-}
-
-- (IBAction)upload:(id)sender {
-    // 切换后要重新运行， 语言才会变。
-  
-    NewVC * new =[NewVC new];
-    [self presentViewController:new animated:YES completion:nil];
-}
-
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

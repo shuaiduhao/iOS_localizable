@@ -15,6 +15,12 @@
 		CEC6FB4D20AD73D100974112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6FB4C20AD73D100974112 /* main.m */; };
 		CEC6FB5720AD73D100974112 /* iOS_localizableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6FB5620AD73D100974112 /* iOS_localizableTests.m */; };
 		CEC6FB6220AD73D100974112 /* iOS_localizableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6FB6120AD73D100974112 /* iOS_localizableUITests.m */; };
+		CEC6FB7920AD759A00974112 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC6FB7B20AD759A00974112 /* InfoPlist.strings */; };
+		CEC6FB7F20AD767200974112 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC6FB8120AD767200974112 /* Localizable.strings */; };
+		CEC6FB8520AD780900974112 /* Newname.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC6FB8720AD780900974112 /* Newname.strings */; };
+		CEC6FB8C20AD7AC600974112 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6FB8B20AD7AC600974112 /* icon1.png */; };
+		CEC6FB8D20AD7BBB00974112 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC6FB8F20AD7BBB00974112 /* icon.png */; };
+		CEC6FB9320AD809F00974112 /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6FB9220AD809F00974112 /* NewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,19 @@
 		CEC6FB5D20AD73D100974112 /* iOS_localizableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_localizableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC6FB6120AD73D100974112 /* iOS_localizableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_localizableUITests.m; sourceTree = "<group>"; };
 		CEC6FB6320AD73D100974112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC6FB6F20AD73F600974112 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CEC6FB7020AD73F600974112 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CEC6FB7A20AD759A00974112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC6FB7C20AD759B00974112 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CEC6FB8020AD767200974112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEC6FB8220AD767400974112 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEC6FB8620AD780900974112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Newname.strings; sourceTree = "<group>"; };
+		CEC6FB8820AD780A00974112 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Newname.strings"; sourceTree = "<group>"; };
+		CEC6FB8B20AD7AC600974112 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		CEC6FB8E20AD7BBB00974112 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/icon.png; sourceTree = "<group>"; };
+		CEC6FB9020AD7CA600974112 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/icon.png"; sourceTree = "<group>"; };
+		CEC6FB9120AD809F00974112 /* NewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewVC.h; sourceTree = "<group>"; };
+		CEC6FB9220AD809F00974112 /* NewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +124,17 @@
 				CEC6FB3E20AD73CF00974112 /* AppDelegate.m */,
 				CEC6FB4020AD73CF00974112 /* ViewController.h */,
 				CEC6FB4120AD73CF00974112 /* ViewController.m */,
+				CEC6FB9120AD809F00974112 /* NewVC.h */,
+				CEC6FB9220AD809F00974112 /* NewVC.m */,
+				CEC6FB8F20AD7BBB00974112 /* icon.png */,
+				CEC6FB8B20AD7AC600974112 /* icon1.png */,
 				CEC6FB4320AD73CF00974112 /* Main.storyboard */,
 				CEC6FB4620AD73D100974112 /* Assets.xcassets */,
 				CEC6FB4820AD73D100974112 /* LaunchScreen.storyboard */,
 				CEC6FB4B20AD73D100974112 /* Info.plist */,
+				CEC6FB8720AD780900974112 /* Newname.strings */,
+				CEC6FB8120AD767200974112 /* Localizable.strings */,
+				CEC6FB7B20AD759A00974112 /* InfoPlist.strings */,
 				CEC6FB4C20AD73D100974112 /* main.m */,
 			);
 			path = iOS_localizable;
@@ -217,6 +243,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = CEC6FB3120AD73CF00974112;
 			productRefGroup = CEC6FB3B20AD73CF00974112 /* Products */;
@@ -235,8 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC6FB8520AD780900974112 /* Newname.strings in Resources */,
+				CEC6FB8D20AD7BBB00974112 /* icon.png in Resources */,
+				CEC6FB7F20AD767200974112 /* Localizable.strings in Resources */,
 				CEC6FB4A20AD73D100974112 /* LaunchScreen.storyboard in Resources */,
+				CEC6FB7920AD759A00974112 /* InfoPlist.strings in Resources */,
 				CEC6FB4720AD73D100974112 /* Assets.xcassets in Resources */,
+				CEC6FB8C20AD7AC600974112 /* icon1.png in Resources */,
 				CEC6FB4520AD73CF00974112 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC6FB4220AD73CF00974112 /* ViewController.m in Sources */,
+				CEC6FB9320AD809F00974112 /* NewVC.m in Sources */,
 				CEC6FB4D20AD73D100974112 /* main.m in Sources */,
 				CEC6FB3F20AD73CF00974112 /* AppDelegate.m in Sources */,
 			);
@@ -304,6 +337,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC6FB4420AD73CF00974112 /* Base */,
+				CEC6FB6F20AD73F600974112 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,8 +346,45 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEC6FB4920AD73D100974112 /* Base */,
+				CEC6FB7020AD73F600974112 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC6FB7B20AD759A00974112 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6FB7A20AD759A00974112 /* en */,
+				CEC6FB7C20AD759B00974112 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC6FB8120AD767200974112 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6FB8020AD767200974112 /* en */,
+				CEC6FB8220AD767400974112 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CEC6FB8720AD780900974112 /* Newname.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6FB8620AD780900974112 /* en */,
+				CEC6FB8820AD780A00974112 /* zh-Hans */,
+			);
+			name = Newname.strings;
+			sourceTree = "<group>";
+		};
+		CEC6FB8F20AD7BBB00974112 /* icon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6FB8E20AD7BBB00974112 /* en */,
+				CEC6FB9020AD7CA600974112 /* zh-Hans */,
+			);
+			name = icon.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -434,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W68RRNF7SA;
 				INFOPLIST_FILE = iOS_localizable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W68RRNF7SA;
 				INFOPLIST_FILE = iOS_localizable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
